@@ -12,4 +12,5 @@ def report():
     print('密件：今日頭條...')
 
 report()
-login(report, int(input('請輸入密碼：')))
+login(report, int(input('請輸入密碼：')))()
+
