@@ -12,7 +12,7 @@ for d in data.get('data'):
 file = open('news3.txt', 'a', encoding = 'UTF-8')
 for news in news_list:
     for head in news['headlines']:
-        if '貸款' in  head[1]:
+        if '10萬' in  head[1]:
             print(head)
             file.writelines(head)
             file.write('\n')
