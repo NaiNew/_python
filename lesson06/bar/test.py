@@ -11,3 +11,4 @@ lan = ["Java", "Python", "C#", "Swift"]
 print(choice(lan)) # 任取一字串
 shuffle(lan) # 洗牌
 print(lan)
+print(copyright())
